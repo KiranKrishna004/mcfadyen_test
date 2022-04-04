@@ -2,6 +2,7 @@
 
 import buyLeft from "../../assets/buyLeft.jpg";
 import buyRight from "../../assets/buyRight.jpg";
+import right from "../../assets/right.jpg";
 import { useDispatch, useSelector } from "react-redux";
 const BuySection = () => {
 	const size = useSelector((state) => state.size);
@@ -13,8 +14,8 @@ const BuySection = () => {
 	};
 	let buttonStyles = {};
 	return (
-		<div className='m-14 text-sm static'>
-			<h1 className='text-5xl'>
+		<div className='xs:m-5 md:m-14 text-sm static'>
+			<h1 className='xs:text-3xl md:text-5xl'>
 				<strong>JONATHAN SIMKHAI</strong>
 			</h1>
 			<p className='mt-1'>Lurex Linen Viscose Jacket in Conchiglia</p>
@@ -62,8 +63,43 @@ const BuySection = () => {
 				})}
 			</div>
 			<div className='flex justify-center mt-4'>
-				<button className='rounded-full bg-black text-white w-full h-10'>
-					ADD TO BAG --{" "}
+				<button className=' flex justify-center items-center rounded-full bg-black text-white w-full h-10'>
+					ADD TO BAG &nbsp;
+					{
+						<svg
+							width='18'
+							height='20'
+							viewBox='0 0 18 12'
+							fill='none'
+							xmlns='http://www.w3.org/2000/svg'>
+							<g clipPath='url(#clip0_1503_14824)'>
+								<path
+									d='M12.9146 1C12.9146 3.40741 16.1398 5.50617 16.8671 5.93827C16.9304 5.96914 16.9304 6.03086 16.8671 6.06173C16.1398 6.49383 12.9146 8.59259 12.9146 11'
+									stroke='white'
+									strokeLinecap='round'
+								/>
+								<line
+									x1='1.41455'
+									y1='6'
+									x2='16.4146'
+									y2='6'
+									stroke='white'
+									strokeLinecap='round'
+									strokeLinejoin='round'
+								/>
+							</g>
+							<defs>
+								<clipPath id='clip0_1503_14824'>
+									<rect
+										width='17'
+										height='12'
+										fill='white'
+										transform='translate(0.914551)'
+									/>
+								</clipPath>
+							</defs>
+						</svg>
+					}
 				</button>
 			</div>
 			<p className='mt-6'>

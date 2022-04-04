@@ -6,6 +6,7 @@ import imgMid from "../../assets/imgMid.jpg";
 import imgBot from "../../assets/imgBot.jpg";
 import heart from "../../assets/heart.jpg";
 import Footer from "./Footer";
+import Tag from "./Tag";
 const ImageLayout = () => {
 	return (
 		<div>
@@ -23,13 +24,10 @@ const ImageLayout = () => {
 			</div>
 			<img src={imgMid} alt='mid missing' className='pt-1' />
 			<img src={imgBot} alt='bot missing' className='pt-1' />
-			<div className='flex justify-center mt-14'>
-				<p className='underline underline-offset-0 mx-1'>JONATHAN SIMKHAI</p>
-				<p className='underline underline-offset-0 mx-1'>BLAZERS</p>
-				<p className='underline underline-offset-0 mx-1'>VISCOSE</p>
-			</div>
+			<Tag />
 			<Footer />
 		</div>
 	);
 };
+
 export default ImageLayout;
