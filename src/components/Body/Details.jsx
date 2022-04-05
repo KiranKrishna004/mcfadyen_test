@@ -1,9 +1,10 @@
 /** @format */
 
+//Left Grid
 const Details = () => {
 	const headerContent = ["DETAILS", "DELIVERY", "FIT", "SHARE"];
 	return (
-		<div className='flex  relative pl-5 pr-7 justify-start w-full flex-col'>
+		<div className='flex sticky top-14 pl-5 pr-7 justify-start w-full flex-col'>
 			<div className='flex justify-start '>
 				{headerContent.map((item, index) => {
 					return item === "DETAILS" ? (

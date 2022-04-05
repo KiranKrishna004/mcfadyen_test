@@ -7,6 +7,8 @@ import imgBot from "../../assets/imgBot.jpg";
 import heart from "../../assets/heart.jpg";
 import Footer from "./Footer";
 import Tag from "./Tag";
+
+//Middle Grid
 const ImageLayout = () => {
 	return (
 		<div>

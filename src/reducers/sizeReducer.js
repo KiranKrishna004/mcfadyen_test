@@ -1,5 +1,6 @@
 /** @format */
 
+//initial state set to L
 const initialState = { size: "L" };
 
 const sizeReducer = (state = initialState, action) => {

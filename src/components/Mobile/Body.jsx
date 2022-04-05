@@ -1,6 +1,5 @@
 /** @format */
 
-import imgTop from "../../assets/imgTop.jpg";
 import BuySection from "../Body/BuySection";
 import Footer from "../Body/Footer";
 import Tag from "../Body/Tag";

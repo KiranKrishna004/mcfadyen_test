@@ -1,5 +1,6 @@
 /** @format */
 
+//contents in the navbar
 const NavbarContent = [
 	"THE EDIT",
 	"NEWARRVALS",
